@@ -1,6 +1,6 @@
 # Spotify Album Liker
 
-Miss the old Spotify UI in which you could see all of your songs in a single location? Want to listen to all songs of your liked albums alongside your individually liked songs? This script is for you!
+Miss the old Spotify UI in which you could play or shuffle all of your songs from a single location? Want to listen to all songs of your liked albums alongside your individually liked songs? This script is for you!
 
 After the recent updates to the Spotify UI, many users find the new layout annoying
 
