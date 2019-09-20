@@ -27,3 +27,6 @@ Then, run the cli utility and provide your authorization information
 spoifyliker myusername123 --client_id <client-id> --client_secret <client-secret> --redirect_uri <uri>
 ```
 Follow the prompts to authorize the script, once completed, all songs will be available in your songs list
+
+## Further improvements
+As it is today, this script will add all songs from your saved albums at the time of the run, but it will not remove songs from albums you no longer have saved. If there is interest, and Spotify doesn't fix this issue I will add the feature to further synchronize songs and remove any songs from albums you no longer like
