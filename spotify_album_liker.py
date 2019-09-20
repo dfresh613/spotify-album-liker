@@ -1,3 +1,4 @@
+import click
 import sys
 import spotipy
 import spotipy.util as util
@@ -45,10 +46,10 @@ def find_and_save_followed_albums(sp):
 
 
 @click.command()
-@click.argument('username', description="Spotify username to access library")
-@click.option('--client_id', description="Spotify client id for your authorization app")
-@click.option('--client_secret', description='Spotify client secret for your authorization app')
-@click.option('--redirect_uri', description="Redirect uri you've set for your app")
+@click.argument('username')
+@click.option('--client_id', help="Spotify client id for your authorization app")
+@click.option('--client_secret', help='Spotify client secret for your authorization app')
+@click.option('--redirect_uri', help="Redirect uri you've set for your app")
 def cli(username, client_id, client_secret, redirect_uri):
     token = util.prompt_for_user_token(username, scope, client_id=client_id,
                                        client_secret=client_secret,
